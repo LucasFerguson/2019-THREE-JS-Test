@@ -42,7 +42,6 @@ loader.load('fonts/helvetiker_regular.typeface.json', function (font) {
 });
 
 
-
 var geometry = new THREE.BoxGeometry(1, 1, 1);
 var material = new THREE.MeshNormalMaterial();
 var cube = new THREE.Mesh(geometry, material);
